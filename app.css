@@ -1,0 +1,89 @@
+h1{
+    /*Pones la configuracion de h1*/
+    font-weight: 200;
+    font-size: 70px;
+    text-transform: uppercase;
+    border-top: 5px solid;
+}
+body{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+img{
+    height: 500px;
+    border-radius: 35%;
+}
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+    border: 3px solid;
+    text-transform: initial;
+    text-decoration: none;
+    letter-spacing: 2px;
+    outline: antiquewhite;
+}
+
+button:hover{
+    transition: 0.3s;
+    background-color: aquamarine;
+    color: black;
+    text-decoration: underline;
+}
+p{
+    font-size: 18px;
+}
+.p1{
+    background-color: tomato;
+    opacity: .5;
+    font-style: italic;
+    line-height: 2em;
+    border-style: solid;
+}
+
+.dropzone {
+    text-align: center;
+    width: 256px;
+    height: 100px;
+    border: 2px dashed #ccc;
+    color: #ccc;
+    line-height: 100px;
+    position: absolute;
+    left: 45%;
+    margin-left: -50px;
+    top: 40%;
+    margin-top: -50px;
+}
+
+.dropzone.dragover {
+
+    border-color: rgb(255, 0, 0);
+    color:rgb(255, 0, 0);
+}
+
+.tablas {
+    text-align: center;
+    width: 256px;
+    height: 100px;
+    border: 2px dashed #ccc;
+    color: #ccc;
+    line-height: 100px;
+    position: absolute;
+    left: 45%;
+    margin-left: -50px;
+    top: 40%;
+    margin-top: -50px;
+}
