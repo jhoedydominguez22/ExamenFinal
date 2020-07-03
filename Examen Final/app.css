@@ -1,0 +1,116 @@
+h1{
+    /*Pones la configuracion de h1*/
+    font-weight: 200;
+    font-size: 70px;
+    text-transform: uppercase;
+    border-top: 5px solid;
+}
+body{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+    border: 3px solid;
+    text-transform: initial;
+    text-decoration: none;
+    letter-spacing: 2px;
+    outline: antiquewhite;
+}
+
+button:hover{
+    transition: 0.3s;
+    background-color: aquamarine;
+    color: black;
+    text-decoration: underline;
+}
+
+.tablas {
+    background-color: white;
+    color: #000;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    border: solid 1px;
+    
+}
+
+th, td{
+    
+    padding: .5%;
+}
+
+tr:first-of-type{background-color: #000000;
+color: #FFF;
+}
+
+
+tr:nth-child(even){
+    background-color: rgb(206, 206, 206);
+
+}
+
+tr:hover td{
+    background-color: #369681;
+    color: white;   
+    
+}
+
+
+#main-container{
+    margin: 50px auto;
+    width: 80%;
+margin-top: -5%;
+}
+
+tr:nth-child(even).selected {
+    background-color: #246355;
+    color: rgb(136, 136, 136);
+}
+
+
+.selected {
+    background-color:#246355;
+    color: #FFF;
+}
+
+.imglogo {
+    
+    border-radius: 4px;
+    padding: 5px;
+    width: 10%; height: 10px;
+    margin-top: -8%;
+    
+    
+  }
+
+  .imgitch {
+    
+    border-radius: 4px;
+    padding: 5px;
+    width: 10%; height: 10px;
+    margin-top: -3%;
+    padding-left: 90%;
+    
+  }
+
+  
+ 
+  
